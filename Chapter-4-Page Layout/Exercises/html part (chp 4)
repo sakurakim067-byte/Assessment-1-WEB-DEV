@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digi Fest</title>
+    
+    <link rel="stylesheet" href="Chp4.css">
+    <!--Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!--Head logo-->
+        <div class="logo-title">
+            <h1>My Color Palette</h1>
+        </div>
+        <nav>
+            <!--Navigation bar-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Line Up</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Body Area covering Sub-heading and paragraph-->
+        <section class="welcome">
+            <h2>Welcome</h2>
+            <p>
+                For my website, I chose colors inspired by traditional Chinese historical times. I used red as the main color because it represents luck, celebration, and power. Gold is used for highlights to show elegance and importance. Dark brown or black is used for text and borders to give a strong, classic feel.
+These colors together give the website a feeling of ancient China, making it look rich, historic, and visually appealing.
+
+            </p>
+        </section>
+<!--Another Section containing reference picture with short para -->
+        <aside class="sidebar">
+            <section class="lineup">
+                <h2>Reference</h2>
+                <p>Here are some reference image that you will see in my Palette.</p>
+                <div class="images">
+                    <div class="square-img">
+                     <img src="C:\Users\Dell\OneDrive\Desktop\Uni Work\Semester 2\Web Programming ( 2nd Sem)\download.jpeg" alt="Reference 1">
+                      </div>
+                      
+                    <div class="square-img">
+                    <img src="C:\Users\Dell\OneDrive\Desktop\Uni Work\Semester 2\Web Programming ( 2nd Sem)\1.jpeg" alt="Reference 2">
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+<!--At the End we have year and logo name-->
+    <footer>
+        <p>&copy; 2026 @My color palette</p>
+    </footer>
+</body>
+</html>
