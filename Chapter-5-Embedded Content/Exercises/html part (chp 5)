@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Video</title>
+     <link rel="stylesheet" href="style5.css">
+  </head>
+<body>
+
+<main>
+  <!--Soundboard with 3 Audios-->
+      <h1>Alan Partridge Soundboard</h1>
+      <p>Click a box to play a nasheed.</p>
+
+      <!-- simple grid of buttons -->
+      <section class="grid">
+
+        <button onclick= "document.getElementById('audio1').play()">Sample 1</button>
+        <audio id="audio1">
+          <source src="C:\Users\Dell\OneDrive\Desktop\Uni Work\Semester 2\HTML CLASS WORKOUTS\audio 1.mp3" type="audio/mp3">
+        </audio>
+
+        <button onclick= "document.getElementById('audio2').play()">Sample 2</button>
+        <audio id="audio2" >
+          <source src="C:\Users\Dell\OneDrive\Desktop\Uni Work\Semester 2\HTML CLASS WORKOUTS\Audio 2.mp3" type="audio/mp3">
+        </audio>
+
+        <button onclick= "document.getElementById('audio3').play()">Sample 3</button>
+        <audio id="audio3" >
+          <source src="C:\Users\Dell\OneDrive\Desktop\Uni Work\HTML CLASS WORKOUTS\audio 3.mp3" type="audio/mp3">
+        </audio>
+      </section>
+    </main>
+   
+<!--Video can be muted and will run in loop-->
+    <video controls width="400"> <source src="C:\Users\Dell\OneDrive\Desktop\Uni Work\HTML CLASS WORKOUTS\4K Forest - Cinematic Forest - 4K Nature Video Ultra HD.mp4"
+           poster="poster.jpg"
+           controls
+           loop
+           muted>
+    </video>
+
+
+   
+  </body>
+</html>
