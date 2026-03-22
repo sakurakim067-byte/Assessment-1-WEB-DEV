@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Three Images Exercise</title>
+   
+  </head>
+
+  <!--using inline CSS on the body -->
+  <body style="margin:0; font-family: Arial, sans-serif; background-color:darkseagreen">
+
+    <!-- styling the mid-->
+    <div style="
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    ">
+
+      <!-- Main heading for the page -->
+      <h1 style="text-align:center; margin-top:0;">
+        Three Photos
+      </h1>
+
+      <!-- Short description -->
+      <p style="text-align:center; color:#555555;">
+        Theme: nature
+      </p>
+
+      <!-- IMAGE 1  -->
+      <div style="margin-bottom:30px; text-align:center;">
+        
+        <img
+          src="C:\Users\Dell\Downloads\download0001.jpeg"
+          alt="Snowy mountain at sunrise"
+          title="Snowy mountain at sunrise"
+          width="360"
+          height="210"
+          style="
+            border-radius: 8px;           /* soft rounded corners */
+            filter: grayscale(50%);       /* black and white effect */
+          "
+        >
+
+        <!-- License text under the image. NOT TO GET COPYRIGHT FROM OWNER -->
+        <p style="
+          font-size: 0.9rem;
+          color: #444444;
+          background-color:#f7f7f7;
+          padding: 8px;
+          border-radius: 6px;
+          margin-top: 8px;
+        ">
+          Photo from a free stock website that allows commercial use
+          (for example: Unsplash / Pexels / Pixabay).  
+          
+        </p>
+      </div>
+
+      <!-- IMAGE 2  -->
+      <div style="margin-bottom:30px; text-align:center;">
+        <img
+          src="C:\Users\Dell\Downloads\yue-su-Qdqd7Z9CuNE-unsplash.jpg"
+          alt="Green forest with sunlight"
+          title="Sunlight in green forest"
+          width="360"
+          height="210"
+          style="
+            border-radius: 8px;
+            filter: sepia(30%);           /* warm brown filter */
+          "
+        >
+
+        <p style="
+          font-size: 0.9rem;
+          color: #444444;
+          background-color:#f7f7f7;
+          padding: 8px;
+          border-radius: 6px;
+          margin-top: 8px;
+        ">
+          Photo downloaded from a free stock site 
+        </p>
+      </div>
+
+      <!--  IMAGE 3 -->
+<div style="margin-bottom:10px; text-align:center;">
+  <img
+    src="C:\Users\Dell\Downloads\scott-walsh-CQl3Y5bV6FA-unsplash.jpg"
+    alt="Calm lake with pink sky"
+    title="Calm lake at sunset"
+    width="360"
+    height="210"
+    style="
+       border-radius: 8px;
+     filter: brightness(1.1) blur(1px);  /* slightly brighter and soft */
+      "
+      >
+
+        <p style="
+          font-size: 0.9rem;
+          color: #444444;
+          background-color:#f7f7f7;
+          padding: 8px;
+          border-radius: 6px;
+          margin-top: 8px;
+        ">
+          Photo from unplash
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
